@@ -10,7 +10,7 @@
 4. Nhấn **Send** để gửi yêu cầu và lấy token từ phản hồi (như hình ảnh 1).
 
 Tiếp theo, tạo yêu cầu **GET** để xác thực token:
-1. Chọn phương thức **GET** với link: `http://localhost:8080/jwt-mvc/auth`.
+1. Chọn phương thức **GET** với link: `http://localhost:8080/jwt-mvc/login`.
 2. Chuyển sang tab **Authorization**.
 3. Chọn **Auth Type** là **Bearer Token**.
 4. Dán token đã lấy từ bước trên vào trường **Token**.
